@@ -195,6 +195,7 @@ void Dialog::on_startServerBtn_clicked()
     params.renderExpiredFrames = Config::getInstance().getRenderExpiredFrames();
     params.lockVideoOrientation = ui->lockOrientationBox->currentIndex() - 1;
     params.stayAwake = ui->stayAwakeCheck->isChecked();
+    params.gameScript = ui->gameBox->currentText();
 
     m_deviceManage.connectDevice(params);
 
