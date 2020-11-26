@@ -1,54 +1,95 @@
 {
-	"switchKey": "Key_Q",
-	"keyMapNodes": [
-		{
-			"comment": "测试一键多点",
-			"type": "KMT_CLICK_MULTI",
-			"key": "Key_Space",
-			"clickNodes": [
-				{
-					"delay": 500,
-					"pos": {
-                      "x": 0.0786802,
-				      "y": 0.0685714
-					}
-				},
-				{
-					"delay": 500,
-					"pos": {
-						"x": 0.337563, "y": 0.257143
-					}
-				},
-			    {
-					"delay": 500,
-					"pos": {
-						"x": 0.5, "y": 0.947143
-					}
-				}
-			]
-		},
-		{
-			"comment": "测试拖拽",
-			"type": "KMT_DRAG",
-			"key": "Key_Up",
-			"startPos": {
-				"x": 0.5,
-				"y": 0.7
-			},
-			"endPos": {
-				"x": 0.5,
-				"y": 0.3
-			}
-		},
-		{
-			"comment": "商品返回",
-			"type": "KMT_CLICK",
-			"key": "Key_Left",
-			"pos": {
-				"x": 0.0786802,
-				"y": 0.0685714
-			},
-			"switchMap": true
-		}
-	]
+  "switchKey": "Key_Q",
+  "keyMapNodes": [
+    {
+      "comment": "测试一键多点",
+      "type": "KMT_CLICK_MULTI",
+      "key": "Key_A",
+      "clickNodes": [
+        {
+          "delay": 200,
+          "pos": {
+            "x": 0.0507614,
+            "y": 0.0728571
+          }
+        },
+        {
+          "delay": 500,
+          "pos": {
+            "x": 0.5,
+            "y": 0.3
+          }
+        }
+      ]
+    },
+    {
+      "comment": "测试拖拽",
+      "type": "KMT_DRAG",
+      "key": "Key_S",
+      "startPos": {
+        "x": 0.5,
+        "y": 0.7
+      },
+      "endPos": {
+        "x": 0.5,
+        "y": 0.3
+      }
+    },
+    {
+      "comment": "商品返回",
+      "type": "KMT_CLICK_MULTI",
+      "key": "Key_Space",
+      "clickNodes": [
+        {
+          "delay": 200,
+          "pos": {
+            "x": 0.5,
+            "y": 0.851429
+          }
+        },
+        {
+          "delay": 200,
+          "pos": {
+            "x": 0.5,
+            "y": 0.851429
+          }
+        },
+        {
+          "delay": 200,
+          "pos": {
+            "x": 0.5,
+            "y": 0.851429
+          }
+        },
+        {
+          "delay": 200,
+          "pos": {
+            "x": 0.5,
+            "y": 0.851429
+          }
+        },
+        {
+          "delay": 200,
+          "pos": {
+            "x": 0.5,
+            "y": 0.851429
+          }
+        },
+        {
+          "delay": 200,
+          "pos": {
+            "x": 0.5,
+            "y": 0.851429
+          }
+        },
+        {
+          "delay": 200,
+          "pos": {
+            "x": 0.5,
+            "y": 0.851429
+          }
+        }
+      ]
+    }
+  ]
 }
